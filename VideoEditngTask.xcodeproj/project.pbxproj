@@ -11,6 +11,20 @@
 		04290DA02C80BBFB006C90A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04290D9F2C80BBFB006C90A2 /* ContentView.swift */; };
 		04290DA22C80BBFD006C90A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04290DA12C80BBFD006C90A2 /* Assets.xcassets */; };
 		04290DA52C80BBFD006C90A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04290DA42C80BBFD006C90A2 /* Preview Assets.xcassets */; };
+		04290DAF2C80BC63006C90A2 /* MergeAudioFromVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04290DAE2C80BC63006C90A2 /* MergeAudioFromVideo.swift */; };
+		04290DB62C80BCCC006C90A2 /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04290DB32C80BCCB006C90A2 /* video2.mp4 */; };
+		04290DB72C80BCCC006C90A2 /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04290DB42C80BCCB006C90A2 /* video1.mp4 */; };
+		04290DB82C80BCCC006C90A2 /* video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04290DB52C80BCCC006C90A2 /* video3.mp4 */; };
+		04290DBC2C80BD3F006C90A2 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04290DB92C80BD3F006C90A2 /* image1.jpg */; };
+		04290DBD2C80BD3F006C90A2 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04290DBA2C80BD3F006C90A2 /* image2.jpg */; };
+		04290DBE2C80BD3F006C90A2 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04290DBB2C80BD3F006C90A2 /* image3.jpg */; };
+		04290DC22C80C03F006C90A2 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04290DC12C80C03F006C90A2 /* audio.mp3 */; };
+		04290DC42C80F8ED006C90A2 /* AddCustomAudioToVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04290DC32C80F8ED006C90A2 /* AddCustomAudioToVideo.swift */; };
+		04290DC62C80FA7D006C90A2 /* CreateVideoFromImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04290DC52C80FA7D006C90A2 /* CreateVideoFromImages.swift */; };
+		04290DC82C80FEEC006C90A2 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04290DC72C80FEEC006C90A2 /* VideoPlayerView.swift */; };
+		04290DCA2C8104B2006C90A2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04290DC92C8104B2006C90A2 /* LoadingView.swift */; };
+		04290DCD2C81070C006C90A2 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04290DCC2C81070C006C90A2 /* CustomButtonView.swift */; };
+		04290DCF2C810826006C90A2 /* VideoEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04290DCE2C810826006C90A2 /* VideoEditorViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +33,20 @@
 		04290D9F2C80BBFB006C90A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04290DA12C80BBFD006C90A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04290DA42C80BBFD006C90A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04290DAE2C80BC63006C90A2 /* MergeAudioFromVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeAudioFromVideo.swift; sourceTree = "<group>"; };
+		04290DB32C80BCCB006C90A2 /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
+		04290DB42C80BCCB006C90A2 /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		04290DB52C80BCCC006C90A2 /* video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video3.mp4; sourceTree = "<group>"; };
+		04290DB92C80BD3F006C90A2 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		04290DBA2C80BD3F006C90A2 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		04290DBB2C80BD3F006C90A2 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		04290DC12C80C03F006C90A2 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
+		04290DC32C80F8ED006C90A2 /* AddCustomAudioToVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCustomAudioToVideo.swift; sourceTree = "<group>"; };
+		04290DC52C80FA7D006C90A2 /* CreateVideoFromImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateVideoFromImages.swift; sourceTree = "<group>"; };
+		04290DC72C80FEEC006C90A2 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		04290DC92C8104B2006C90A2 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		04290DCC2C81070C006C90A2 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		04290DCE2C810826006C90A2 /* VideoEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoEditorViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +79,11 @@
 		04290D9C2C80BBFB006C90A2 /* VideoEditngTask */ = {
 			isa = PBXGroup;
 			children = (
+				04290DB02C80BCA8006C90A2 /* Resources */,
 				04290D9D2C80BBFB006C90A2 /* VideoEditngTaskApp.swift */,
-				04290D9F2C80BBFB006C90A2 /* ContentView.swift */,
+				04290DAD2C80BC1F006C90A2 /* ViewModels */,
+				04290DAC2C80BC18006C90A2 /* Models */,
+				04290DAB2C80BC10006C90A2 /* Views */,
 				04290DA12C80BBFD006C90A2 /* Assets.xcassets */,
 				04290DA32C80BBFD006C90A2 /* Preview Content */,
 			);
@@ -65,6 +96,65 @@
 				04290DA42C80BBFD006C90A2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04290DAB2C80BC10006C90A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04290D9F2C80BBFB006C90A2 /* ContentView.swift */,
+				04290DC72C80FEEC006C90A2 /* VideoPlayerView.swift */,
+				04290DC92C8104B2006C90A2 /* LoadingView.swift */,
+				04290DCC2C81070C006C90A2 /* CustomButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04290DAC2C80BC18006C90A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04290DAD2C80BC1F006C90A2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				04290DAE2C80BC63006C90A2 /* MergeAudioFromVideo.swift */,
+				04290DC32C80F8ED006C90A2 /* AddCustomAudioToVideo.swift */,
+				04290DC52C80FA7D006C90A2 /* CreateVideoFromImages.swift */,
+				04290DCE2C810826006C90A2 /* VideoEditorViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		04290DB02C80BCA8006C90A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04290DB22C80BCBB006C90A2 /* Images */,
+				04290DB12C80BCB1006C90A2 /* Videos */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04290DB12C80BCB1006C90A2 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				04290DB42C80BCCB006C90A2 /* video1.mp4 */,
+				04290DC12C80C03F006C90A2 /* audio.mp3 */,
+				04290DB32C80BCCB006C90A2 /* video2.mp4 */,
+				04290DB52C80BCCC006C90A2 /* video3.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		04290DB22C80BCBB006C90A2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				04290DB92C80BD3F006C90A2 /* image1.jpg */,
+				04290DBA2C80BD3F006C90A2 /* image2.jpg */,
+				04290DBB2C80BD3F006C90A2 /* image3.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +216,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				04290DA52C80BBFD006C90A2 /* Preview Assets.xcassets in Resources */,
+				04290DB72C80BCCC006C90A2 /* video1.mp4 in Resources */,
 				04290DA22C80BBFD006C90A2 /* Assets.xcassets in Resources */,
+				04290DB82C80BCCC006C90A2 /* video3.mp4 in Resources */,
+				04290DC22C80C03F006C90A2 /* audio.mp3 in Resources */,
+				04290DB62C80BCCC006C90A2 /* video2.mp4 in Resources */,
+				04290DBC2C80BD3F006C90A2 /* image1.jpg in Resources */,
+				04290DBD2C80BD3F006C90A2 /* image2.jpg in Resources */,
+				04290DBE2C80BD3F006C90A2 /* image3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +235,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				04290DA02C80BBFB006C90A2 /* ContentView.swift in Sources */,
+				04290DAF2C80BC63006C90A2 /* MergeAudioFromVideo.swift in Sources */,
 				04290D9E2C80BBFB006C90A2 /* VideoEditngTaskApp.swift in Sources */,
+				04290DCD2C81070C006C90A2 /* CustomButtonView.swift in Sources */,
+				04290DCF2C810826006C90A2 /* VideoEditorViewModel.swift in Sources */,
+				04290DC62C80FA7D006C90A2 /* CreateVideoFromImages.swift in Sources */,
+				04290DC42C80F8ED006C90A2 /* AddCustomAudioToVideo.swift in Sources */,
+				04290DCA2C8104B2006C90A2 /* LoadingView.swift in Sources */,
+				04290DC82C80FEEC006C90A2 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +384,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +414,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

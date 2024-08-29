@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct VideoEditngTaskApp: App {
+    @StateObject private var viewModel = VideoEditorViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ContentView()
+            }
+            .environmentObject(viewModel)
         }
     }
 }
