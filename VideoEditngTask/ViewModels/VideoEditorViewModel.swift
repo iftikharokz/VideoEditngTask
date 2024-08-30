@@ -56,12 +56,15 @@ class VideoEditorViewModel: ObservableObject {
     private func handleResult(_ result: Result<URL, Error>) {
         switch result {
         case .success(let url):
-            self.url = url
-            self.playVideo = true
+            DispatchQueue.main.async {
+                self.url = url
+                self.playVideo = true
+                self.isProcessing = false
+            }
         case .failure(let error):
             print("Error: \(error.localizedDescription)")
+            self.isProcessing = false
         }
-        self.isProcessing = false
     }
     
     private func getResourceURL(named name: String, withExtension ext: String) -> URL? {
