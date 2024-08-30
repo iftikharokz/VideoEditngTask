@@ -50,9 +50,6 @@ class VideoEditorViewModel: ObservableObject {
             self.createVideoFromImages.makeVideoOfUIImages(imageURLs: imageURLs) { result in
                 self.handleResult(result)
             }
-//            self.createVideoFromImages.createAnimatedVideoFromImages(imageURLs: imageURLs) { result in
-//                self.handleResult(result)
-//            }
         }
     }
     
